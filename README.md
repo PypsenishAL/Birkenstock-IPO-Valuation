@@ -4,14 +4,12 @@ An Excel valuation of Birkenstock Holding plc (NYSE: BIRK) as of September 30, 2
 
 **Base-case DCF: $38.85 per share, 15.5% below the offer price.** The median multiples of the four core peers imply prices of **$22.23 to $47.67**, depending on the multiple. The forward EV/EBITDA estimate is slightly above the offer price.
 
-<!--
-Add the valuation football field here. Use PDF page 8 after aligning the DCF bar with the sensitivity grid or labeling its scenario assumptions.
-![Valuation football field comparing DCF and trading comps with the $46 IPO price](assets/football-field.png)
--->
+<img width="2883" height="1513" alt="image" src="https://github.com/user-attachments/assets/5a09167c-39cc-4fd8-8db9-af838a3cc1f2" />
+
 
 ## Discounted Cash Flow
 
-The model forecasts free cash flow to the firm (FCFF) for FY2024E–FY2030E from a FY2023E base. Revenue growth slows from 25% to 6%, while gross margin declines from 60% to 57%. Forecast EBIT and net property, plant and equipment (PP&E) use inputs from the case. Operating working capital is forecast from inventory, receivables and payables turnover and other operating balances as a share of sales. CapEx is estimated from the change in net PP&E plus depreciation.
+The model forecasts free cash flow to the firm (FCFF) for FY2024E–FY2030E from a FY2023E base. Revenue growth slows from 25% to 6%, while gross margin declines from 60% to 57%. Forecast EBIT and net property, plant and equipment use inputs from the case. Operating working capital is forecast from inventory, receivables and payables turnover and other operating balances as a share of sales. CapEx is estimated from the change in net PP&E plus depreciation.
 
 `FCFF = EBIT × (1 − tax rate) + D&A − CapEx − ΔOperating NWC`
 
@@ -28,19 +26,14 @@ The model forecasts free cash flow to the firm (FCFF) for FY2024E–FY2030E from
 | Equity value, after €1,546m net debt | €6,537.4m |
 | Implied price, using 177m pre-IPO shares and 1.052 USD/EUR | **$38.85** |
 
-<!--
-Add the DCF valuation bridge here. Use PDF page 5 or crop the enterprise-to-equity bridge from the DCF part 2 worksheet.
-![DCF bridge from discounted cash flows and terminal value to implied share price](assets/dcf-bridge.png)
--->
+<img width="2782" height="1452" alt="image" src="https://github.com/user-attachments/assets/d18fea4c-adb2-465b-9586-2d4c15ca91f7" />
 
 ### Sensitivity to WACC and terminal growth
 
 Terminal value accounts for **75% of enterprise value**. In the appendix sensitivity grid, moving WACC and terminal growth by up to 100 basis points each around the unrounded base case yields **$26.88–$64.42 per share**. Each scenario discounts both the forecast cash flows and terminal value at its own WACC.
 
-<!--
-Add the full 5 × 5 WACC / terminal growth grid here. Use PDF page 10 or an updated, formula-linked grid from Excel.
-![DCF sensitivity matrix for WACC and terminal growth](assets/dcf-sensitivity.png)
--->
+<img width="2773" height="1436" alt="image" src="https://github.com/user-attachments/assets/161a3cf1-91dc-44a0-8c15-92547ea57cec" />
+
 
 ## Comparable Company Analysis
 
@@ -54,10 +47,7 @@ The core peer set consists of **Crocs, Deckers, Dr. Martens and On Holding**. Th
 
 Each figure is the implied price in USD per share from the median peer multiple. The multiple is applied to Birkenstock’s FY2023E revenue or EBITDA, or to FY2024E EBITDA for the forward multiple. Net debt is then deducted from enterprise value to arrive at equity value. The drop from **$47.67 to $20.88** on forward EV/EBITDA when On Holding is excluded shows how much peer selection matters in a small sample.
 
-<!--
-Add the peer selection comparison here. Use PDF page 7 or the Excel summary of implied prices across peer sets.
-![Implied Birkenstock share prices by multiple and peer group](assets/peer-comparison.png)
--->
+<img width="2741" height="1404" alt="image" src="https://github.com/user-attachments/assets/677ced5e-1d1d-4569-92cf-7d2dad847408" />
 
 ## Files and model walkthrough
 
@@ -76,9 +66,8 @@ Repository setup: save this file at the root. Rename the workbook and presentati
 
 ## Contribution
 
-This was a team project. My contribution focused on the Excel DCF workstream. The comparable company analysis was produced by the team’s market approach workstream.
+This was a team project
 
 ## Sources
 
-- Case inputs and forecast assumptions come from the Darden teaching case [Birkenstock: Pricing the 2023 Initial Public Offering](https://store.darden.virginia.edu/birkenstock-pricing-the-2023-initial-public-offering) (F-2118), as used in the workbook.
 - Company disclosure context comes from Birkenstock’s [Form F-1](https://www.sec.gov/Archives/edgar/data/1977102/0001193125-23-233488-index.htm). The [subsequent SEC filing](https://www.sec.gov/Archives/edgar/data/1977102/000095017024022619/R17.htm) confirms the offer price. The valuation uses the case’s pre-IPO share count and capital structure.
